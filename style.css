@@ -1,0 +1,178 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    text-align: justify;
+}
+/* Navbar start */
+#navbar{
+    background: rgb(0, 207, 173);
+    text-align: right;
+}
+.nav_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav_menu a{
+    padding: 5px 10px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 0px rgb(94, 92, 92);
+}
+.nav_menu a:hover{
+    background-color: #fff;
+    color: black;
+    text-shadow: 1px 1px 0px rgb(230, 225, 225);
+    border-radius: 10px;
+}
+/* Navbar end */
+
+/* Top area start */
+#top_area{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    height: 650px;
+}
+.style_for_section{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+.half_width{
+    width: 40%;
+    margin:30px 0 0 100px;  
+    
+}
+
+.half_width p{
+line-height: 28px;
+font-size: 18px;
+color: dimgray;
+}
+.half_width img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #575757;
+}
+.text_highlight{
+    color: rgb(228, 148, 0);
+}
+#fast_div{
+    margin-top: 150px;
+}
+.link_button{
+    text-decoration: none;
+    background-image:linear-gradient( 50deg,#ff8800, #d72b3a);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    box-shadow: 1px 0px 7px #e6965d ;
+}
+.link_button:hover{
+    font-size: 25px;
+    transition: 0.5s;
+}
+/* Top area end */
+
+/* About me area start */
+    #about_me_area{
+        background-image: url(images/shapes/Frame\ 59.jpg);
+        height: 575px;
+    }
+    #some_texts{
+        text-align: center;
+    }
+
+    .about_half_width{
+        width: 35%;
+        margin-left: 10%;
+       margin-top: 3%;
+    }
+    .about_half_width img{
+        width: 70%;
+    }
+    .about_half_width p{
+        line-height: 26px;
+    }
+    #second_div{
+        margin-top: 80px;
+    }
+    .text_color_and_size{
+        font-size: 40px;
+        color:#575757 ;
+    }
+    #link_button_improve{
+        margin-top: 70px;
+    }
+/* About me area end */
+
+/* My recipies area start */
+
+#recipeis_main_div{
+    display: flex;
+    
+}
+.triple_width{
+    width: 25%;
+    margin:0 auto 50px;
+    box-shadow: 0px -1px 15px rgb(184, 184, 184);
+    padding: 20px;
+    border-radius: 30px;
+}
+.triple_width img{
+    width:100%;  
+}
+.triple_width:hover{
+    box-shadow: 4px 10px 10px rgb(209, 206, 206);
+    transition: 0.5s;
+}
+h3{
+    font-size: 25px;
+}
+    /* Extra work start */
+#small_box{
+    width: 94%;
+    height: 150px;
+    margin: 100px auto;
+    box-shadow: 0px -1px 8px rgb(235 227 227);
+    display: flex;
+    border-radius: 15px;
+}
+.small_div h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.small_div{
+    margin:0 auto 0 130px;
+
+}
+    /* Extra work end */
+/* My recipies area end */
+
+/* Footer area start */
+footer{
+    background-color: black;
+    text-align: center;
+    height: 200px;
+    
+}
+footer p{
+    color: white;
+}
+
+#text_color{
+    color: #575757;
+}
+#footer_style{ 
+    margin: 40px auto;
+    display: inline-block;
+}
+/* Footer area start */
